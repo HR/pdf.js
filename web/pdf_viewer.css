@@ -32,6 +32,19 @@
   background-color: white;
 }
 
+.darkMode {
+  -webkit-filter: invert(90%) !important;
+  border: none !important;
+}
+
+.darkMode .page {
+  border-image: none !important;
+}
+
+.darkMode .thumbnailImage {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5) !important;
+}
+
 .pdfViewer.removePageBorders .page {
   margin: 0px auto 10px auto;
   border: none;

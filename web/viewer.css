@@ -843,6 +843,11 @@ html[dir='rtl'] .toolbarButton.pageDown::before {
   content: url(images/toolbarButton-presentationMode.png);
 }
 
+.toolbarButton.theme::before,
+.secondaryToolbarButton.theme::before {
+  content: url(images/toolbarButton-theme.png);
+}
+
 .toolbarButton.print::before,
 .secondaryToolbarButton.print::before {
   content: url(images/toolbarButton-print.png);

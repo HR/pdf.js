@@ -134,6 +134,10 @@ class Toolbar {
       });
     });
 
+    items.theme.addEventListener('click', function() {
+      eventBus.dispatch('theme', { source: self, });
+    });
+
     items.presentationModeButton.addEventListener('click', function() {
       eventBus.dispatch('presentationmode', { source: self, });
     });
