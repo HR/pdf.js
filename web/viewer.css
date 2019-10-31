@@ -843,9 +843,9 @@ html[dir='rtl'] .toolbarButton.pageDown::before {
   content: url(images/toolbarButton-presentationMode.png);
 }
 
-.toolbarButton.theme::before,
-.secondaryToolbarButton.theme::before {
-  content: url(images/toolbarButton-theme.png);
+.toolbarButton.invert::before,
+.secondaryToolbarButton.invert::before {
+  content: url(images/toolbarButton-invert.png);
 }
 
 .toolbarButton.print::before,
@@ -1661,9 +1661,9 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
     content: url(images/toolbarButton-zoomOut@2x.png);
   }
 
-  .toolbarButton.theme::before,
-  .secondaryToolbarButton.theme::before {
-    content: url(images/toolbarButton-theme@2.png);
+  .toolbarButton.invert::before,
+  .secondaryToolbarButton.invert::before {
+    content: url(images/toolbarButton-invert@2.png);
   }
 
   .toolbarButton.presentationMode::before,

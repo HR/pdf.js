@@ -1349,7 +1349,7 @@ let PDFViewerApplication = {
     eventBus.on('sidebarviewchanged', webViewerSidebarViewChanged);
     eventBus.on('pagemode', webViewerPageMode);
     eventBus.on('namedaction', webViewerNamedAction);
-    eventBus.on('theme', webViewerToggleTheme);
+    eventBus.on('invert', webViewerToggleTheme);
     eventBus.on('presentationmodechanged', webViewerPresentationModeChanged);
     eventBus.on('presentationmode', webViewerPresentationMode);
     eventBus.on('openfile', webViewerOpenFile);
@@ -1425,7 +1425,7 @@ let PDFViewerApplication = {
     eventBus.off('sidebarviewchanged', webViewerSidebarViewChanged);
     eventBus.off('pagemode', webViewerPageMode);
     eventBus.off('namedaction', webViewerNamedAction);
-    eventBus.off('theme', webViewerToggleTheme);
+    eventBus.off('invert', webViewerToggleTheme);
     eventBus.off('presentationmodechanged', webViewerPresentationModeChanged);
     eventBus.off('presentationmode', webViewerPresentationMode);
     eventBus.off('openfile', webViewerOpenFile);

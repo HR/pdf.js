@@ -134,8 +134,8 @@ class Toolbar {
       });
     });
 
-    items.theme.addEventListener('click', function() {
-      eventBus.dispatch('theme', { source: self, });
+    items.invert.addEventListener('click', function() {
+      eventBus.dispatch('invert', { source: self, });
     });
 
     items.presentationModeButton.addEventListener('click', function() {
